@@ -13,7 +13,7 @@ function App() {
       try {
         setInput(eval(input).toString());
       } catch (error) {
-        // error handling
+        
         setInput("Error");
       }
     } else {
